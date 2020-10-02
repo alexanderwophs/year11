@@ -1,3 +1,5 @@
+# this would be registration for a cooking related mmnrpg with surpisinlgly superpowered cooks like a palate so good ot can taste anything. 
+#you would have LITERAL MAGIC and so would the 'boiling witch' who is an actual character.
 print("""Hi, welcome to shokugechki no souma, great cook.
 the only cooking mmorpg in existstance!""")
 name=str(input("enter your name to continue.;D "))
@@ -23,4 +25,11 @@ else:
       age=int(input("age"))
       e_Mail=str(input("eMail"))
       correct=str(input("it this correct? y for correct any other letter for no including capital Y or words."))
-      
+  if correct != "y":
+        print("ERROR C00K, PLEASE RESET REGIRSTRATION PAGE")
+  else:
+    print("this is you")
+    print(name)
+    print(last_name)
+    print(age)
+    print("finally, have fun!")
