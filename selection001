@@ -1,0 +1,9 @@
+num1= input("give us an integer")
+
+num2= input("give us another")
+
+
+if num1 >= num2:
+     print(num1)
+else:
+     print(num2)
