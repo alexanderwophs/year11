@@ -1,0 +1,18 @@
+compnum= 50
+num= int(input("enter number"))
+count= 1
+guess="y"
+while num != 50 and guess == "y":
+     num= int(input("are you sure/try again"))
+     if num >50:
+          print("too high")
+          count = count + 1
+          guess = str(input("another guess"))
+     elif num <50:
+          print("too low")
+          count = count + 1
+          guess = str(input("another guess"))
+          
+
+
+print("well done you either gave up or got the number right in",count,"tries")
