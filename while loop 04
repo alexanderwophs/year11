@@ -1,0 +1,10 @@
+space="y"
+count=0
+
+while space =="y":
+    name = str(input("enter name"))
+    print(name,"is now invited")
+    count = count+1
+    space = str(input("invite more? y/n"))
+
+print(count)
