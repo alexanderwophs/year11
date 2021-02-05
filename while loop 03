@@ -1,0 +1,12 @@
+num= int(input("enter number"))
+total=num
+y="y"
+
+while y=="y":
+     num2 = int(input("enter number"))
+     total = total+ num2
+     y=str(input("enter y to continue"))
+
+
+print(total)
+     
