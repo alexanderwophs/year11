@@ -1,0 +1,10 @@
+num= int(input("enter number"))
+
+while num < 10:
+     print("too low, try again")
+     num= int(input("enter number"))
+while num > 20:
+     print("too high ya crazy pizza pie")
+     num= int(input("enter number"))
+else:
+     print("correct")
