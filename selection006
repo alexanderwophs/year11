@@ -1,0 +1,10 @@
+age= int(input("how old are you"))
+
+if age >= 18:
+     print("you can vote,learn to drive, buy a lottery ticket and still go trick o' treating")
+elif age == 17:
+     print("you can learn to drive, buy a ticket and trick o treat")
+elif age == 16:
+     print("you can buy a lottery ticket and trick o treat")
+else:
+     print("you can trick o treat and be a kid")
