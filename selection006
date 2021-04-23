@@ -8,3 +8,4 @@ elif age == 16:
      print("you can buy a lottery ticket and trick o treat")
 else:
      print("you can trick o treat and be a kid")
+#alex waggott selection006
