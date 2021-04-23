@@ -16,3 +16,4 @@ while num != 50 and guess == "y":
 
 
 print("well done you either gave up or got the number right in",count,"tries")
+#alex waggott while loop o5
