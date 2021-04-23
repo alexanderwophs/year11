@@ -3,3 +3,4 @@ num = 0
 while num <= 5:
      num=int(input("enter number"))
 print("the last number you entered was a", num)
+#alex waggott while loop 02
